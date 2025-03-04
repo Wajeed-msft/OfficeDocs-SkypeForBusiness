@@ -35,7 +35,7 @@ As a Teams administrator, you can update Teams apps to help the users get the la
 
 ## Conditions when an app update requires consent
 
-Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own, unless an admin installed or pinned it. However, users may receive a notification to update an app if their consent is required and the app doesn't auto-update. Users can provide consent by selecting [`Update` option displayed in Teams](#update-to-new-version-by-users-and-admins).
+Apps update on their own if there's no change in functionality or request for organization's data. When one or more of the following changes are made to an app, it doesn't update on its own. However, users may receive a notification to update an app if their consent is required and the app doesn't auto-update. Users can provide consent by selecting [`Update` option displayed in Teams](#update-to-new-version-by-users-and-admins).
 
 * Add a bot or change the ID of the bot using the `botId` property.
 * Change the `isNotificationOnly` property of an existing bot that changes the bot's notifications.
@@ -91,8 +91,6 @@ For more information, see [how admins manage custom apps](teams-custom-app-polic
 For custom apps to update, after you upload the new version of the app to Teams, users must individually provide their consent if it's required.
 
 ## Considerations for app upgrades
-
-* If you pin or install an app, then it automatically updates when a new version is available.
 
 * If an app isn't updated for a user, then the user continues to use the older version of an app. If an app updates in one context but not in the other context for a user, then the user continues to use two different versions of the app.
 
